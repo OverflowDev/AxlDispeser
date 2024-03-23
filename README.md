@@ -11,19 +11,20 @@ This guide provides step-by-step instructions for setting up a Node.js project u
 
 1. **Clone the Repository**: 
 
-   Clone the repository to your local machine using the following command:
-
+Clone the repository to your local machine using the following command:
+    **`git clone https://github.com/OverflowDev/AxlDispeser.git`**
 
 
 2. **Navigate to the Project Directory**: 
 
 Change your current directory to the cloned repository's path:
-
+    **`cd AxlDispeser`**
 
 
 3. **Copy Environment Variables File**:
 
 Copy the `.env.example` file to `.env`. You can either manually duplicate the file or use the following command:
+    **`cp .env.example .env`**
 
 
 
@@ -35,6 +36,7 @@ Open the `.env` file in a text editor and replace the placeholder with your Priv
 5. **Install Dependencies**:
 
 Run the following command to install the project dependencies:
+    **`npm install`**
 
 
 
@@ -50,6 +52,7 @@ Open `index.js` in a text editor and make the following modifications:
 7. **Run the Project**:
 
 Execute the following command to run the Node.js project:
+    **`node index.js`**
 
 
 
